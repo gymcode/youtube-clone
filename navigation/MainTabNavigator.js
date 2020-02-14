@@ -9,7 +9,7 @@ import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const config = Platform.select({
-  web: { headerMode: 'screen' },
+  web: { headerMode: 'none' },
   default: {},
 });
 
@@ -22,9 +22,10 @@ const HomeStack = createStackNavigator(
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
-  tabBarIcon: ({ focused }) => (
+  tabBarIcon: ({ focused, red }) => (
     <TabBarIcon
       focused={focused}
+      style={[{color: red}]}
       name={
         Platform.OS === 'ios'? "ios-home" : "md:home"
       }
