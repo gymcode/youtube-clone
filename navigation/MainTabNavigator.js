@@ -9,7 +9,7 @@ import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const config = Platform.select({
-  web: { headerMode: 'screen' },
+  web: { headerMode: 'none' },
   default: {},
 });
 
@@ -22,13 +22,12 @@ const HomeStack = createStackNavigator(
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
-  tabBarIcon: ({ focused }) => (
+  tabBarIcon: ({ focused, red }) => (
     <TabBarIcon
       focused={focused}
+      style={[{color: red}]}
       name={
-        Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
+        Platform.OS === 'ios'? "ios-home" : "md:home"
       }
     />
   ),
@@ -36,42 +35,76 @@ HomeStack.navigationOptions = {
 
 HomeStack.path = '';
 
-const LinksStack = createStackNavigator(
+const TrendStack = createStackNavigator(
   {
-    Links: LinksScreen,
+    Trend: LinksScreen,
   },
   config
 );
 
-LinksStack.navigationOptions = {
-  tabBarLabel: 'Links',
+TrendStack.navigationOptions = {
+  tabBarLabel: 'Trending',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'} />
+    <TabBarIcon  focused={focused} name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'} />
   ),
 };
 
-LinksStack.path = '';
+TrendStack.path = '';
 
-const SettingsStack = createStackNavigator(
+const SubscriptionStack = createStackNavigator(
   {
-    Settings: SettingsScreen,
+    Subscription: SettingsScreen,
   },
   config
 );
 
-SettingsStack.navigationOptions = {
-  tabBarLabel: 'Settings',
+SubscriptionStack.navigationOptions = {
+  tabBarLabel: 'Subscription',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
   ),
 };
 
-SettingsStack.path = '';
+SubscriptionStack.path = '';
+
+const InboxStack = createStackNavigator(
+  {
+    Inbox: SettingsScreen,
+  },
+  config
+);
+
+InboxStack.navigationOptions = {
+  tabBarLabel: 'Inbox',
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-mail' : 'md-mail'} />
+  ),
+};
+
+InboxStack.path = '';
+
+const LibraryStack = createStackNavigator(
+  {
+    Library: SettingsScreen,
+  },
+  config
+);
+
+LibraryStack.navigationOptions = {
+  tabBarLabel: 'Library',
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
+  ),
+};
+
+LibraryStack.path = '';
 
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
-  LinksStack,
-  SettingsStack,
+  TrendStack,
+  SubscriptionStack,
+  InboxStack,
+  LibraryStack,
 });
 
 tabNavigator.path = '';
