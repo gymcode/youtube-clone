@@ -5,48 +5,59 @@ import {View,
         TouchableOpacity,
         Image,
         ScrollView, 
-        SafeAreaView
+        SafeAreaView, 
+        FlatList
       } from 'react-native';
-
+import {cars} from '../data/data'
+import {Entypo} from '@expo/vector-icons'
 
 import Header from './Subcomponents/headerNav'
 
+const ListSection = (props)=>{
+  return(
+    <View style={{flexDirection: "row", paddingVertical: 20, padding: 10, justifyContent: "space-between"}}>
+      <View style={{backgroundColor: "blue", height: 4, width: 4, borderRadius: 50,marginTop: 14}}/>
+      <View style={{height: 30, width: 30 ,borderRadius: 50, backgroundColor: "red", marginLeft: 6}}>
+          
+      </View>
+      <View style={{flex: 4, marginHorizontal: 10}}>
+          <Text>{props.description}</Text>
+      </View>
+      <View style={{flex: 1}}>
+          <Image source={{uri: props.image}} style={{height: 40, width: 70}}/>
+      </View>
+      <View style={{flex: 1, alignItems: "flex-end", marginTop:10 }}>
+          <Entypo
+            name="dots-three-vertical"
+            size={15}
+            color="gray"
+          />
+      </View>
+    </View>
+  )
+}
+
+
 
 const InboxScreen = ()=>{
-
-  const [content, setContent] = useState([])
-
-    //youtube Api key 
-  const API_key = 'AIzaSyCb5NbNKnJ2YLGooHqp5hSnFU-gN0-UQDk';
-  const YoutubeUri = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=${API_key}`;
-
-  // fetching from the API
-  fetch(YoutubeUri)
-        .then((response)=> response.json())
-        .then((data)=>{
-          console.log(data.items)
-          setContent()
-        })
-
   return(
-    <SafeAreaView>
-    <View style={{flex: 1, backgroundColor: "#f8f8f8"}}>
-      {/* header section */}
-      <Header/>
-
+    <SafeAreaView style={{flex: 1, backgroundColor: "#f8f8f8"}}>
       <View>
-        <ScrollView>
-          {/* content for youtube */}
-          {
-           
-          }
-          <View>  
-            <Text>sdcdfdfvfvfdvdfvvfd</Text>
-          </View>
-        </ScrollView>
-      </View>
+        {/* header section */}
+        <Header/>
 
-    </View>
+        
+          <ScrollView>
+            <FlatList
+              data={cars}
+              renderItem={({item})=> <ListSection 
+                description={item.snippet.title}
+                image={item.snippet.thumbnails.high.url}
+              />}
+            />    
+          </ScrollView>
+
+      </View>
     </SafeAreaView>
   )
 

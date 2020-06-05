@@ -104,7 +104,7 @@ InboxStack.path = '';
 
 const LibraryStack = createStackNavigator(
   {
-    Library: LibraryScreen,
+    Library: LibraryScreen    ,
   },
   config
 );

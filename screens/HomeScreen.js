@@ -5,48 +5,77 @@ import {View,
         TouchableOpacity,
         Image,
         ScrollView, 
-        SafeAreaView
+        SafeAreaView, 
+        FlatList
       } from 'react-native';
-
+import {homeData, games} from '../data/data'
 
 import Header from './Subcomponents/headerNav'
 
 
+const Display = ({etag, channelUrl, ChannelName, views, data})=>{
+  return(
+    <View>     
+      <View>
+        <Image source={{uri: channelUrl}} style={{height: 220, width: 400}}/>
+      </View>
+      <View style={{flexDirection: "row", padding: 15}}>
+        <View style={{height: 40, width: 40, borderRadius: 50,backgroundColor: "red", flex: 1}}/>
+        <View style={{flex: 6, marginHorizontal: 15}}>
+          <Text style={{color: "#000"}}>{etag}</Text>      
+          <Text style={{color: "gray"}}>{ChannelName} . {views} . {data}</Text>
+        </View>
+        <View style={{flex: 1}}>
+
+        </View>
+      </View>
+    </View>
+  )
+}
+
+const List = (props)=>{
+  return(
+    <View style={{paddingHorizontal: 20, marginRight: 10,height: 35, borderRadius: 20,backgroundColor: "#ccc", justifyContent: 'center', alignItems: "center", borderColor: "red"}}>
+      <Text>{props.title}</Text>
+    </View>
+  )
+}
+
 const HomeScreen = ()=>{
 
-  const [content, setContent] = useState([])
-
-    //youtube Api key 
-  const API_key = 'AIzaSyCb5NbNKnJ2YLGooHqp5hSnFU-gN0-UQDk';
-  const YoutubeUri = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=${API_key}`;
-
-  // fetching from the API
-  fetch(YoutubeUri)
-        .then((response)=> response.json())
-        .then((data)=>{
-          console.log(data.items)
-          setContent()
-        })
-
   return(
-    <SafeAreaView>
-    <View style={{flex: 1, backgroundColor: "#f8f8f8"}}>
-      {/* header section */}
-      <Header/>
+    <SafeAreaView style={{flex:1}}>
+        <View>
+          {/* header */}
+          <Header/>
 
-      <View>
-        <ScrollView>
-          {/* content for youtube */}
-          {
-           
-          }
-          <View>  
-            <Text>sdcdfdfvfvfdvdfvvfd</Text>
+          {/* sub header section */}
+          <View style={{marginVertical: 10}}>
+              <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                  <FlatList
+                    data={games}
+                    horizontal={true}
+                    renderItem={({item})=> <List
+                      title={item.snippet.channelTitle}
+                    />}
+                  />
+              </ScrollView>
           </View>
-        </ScrollView>
-      </View>
+          
 
-    </View>
+          <View>
+            
+            <FlatList
+              data={homeData}
+              
+              renderItem={({item})=><Display 
+                  etag={item.snippet.title} 
+                  channelUrl={item.snippet.thumbnails.high.url} 
+                  ChannelName={item.snippet.channelTitle}
+                  />}
+            />
+          </View>
+        </View>
     </SafeAreaView>
   )
 

@@ -1,0 +1,958 @@
+
+    {
+        "kind": "youtube#videoListResponse",
+        "etag": "FNAlagg9uOYdJxbrwYMo4sF95Fk",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "3KrFFlGdZ3RXSbawIxzh_9tB-mc",
+            "id": "q_qB6SsErpA",
+            "snippet": {
+              "publishedAt": "2020-06-03T22:42:26Z",
+              "channelId": "UCiaba-DmYJacphj7r7Knrwg",
+              "title": "A conversation with President Obama: Reimagining Policing in the Wake of Continued Police Violence",
+              "description": "President Obama joins local and national leaders in the police reform movement, to discuss the tragic events of recent weeks, the history of police violence in America, and specific action steps needed to transform a system that has led to the loss of too many lives. Get engaged at: https://www.obama.org/anguish-and-action/. \n\nPresident Obama joins Former U.S. Attorney General Eric Holder, President of Color of Change Rashad Robinson, Minneapolis City Council Representative Phillipe Cunningham, and MBK Columbus Youth Leader Playon Patrick, in a conversation moderated by Campaign Zero co-founder Brittany Packnett Cunningham.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/q_qB6SsErpA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/q_qB6SsErpA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/q_qB6SsErpA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/q_qB6SsErpA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/q_qB6SsErpA/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Obama Foundation",
+              "categoryId": "29",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "A conversation with President Obama: Reimagining Policing in the Wake of Continued Police Violence",
+                "description": "President Obama joins local and national leaders in the police reform movement, to discuss the tragic events of recent weeks, the history of police violence in America, and specific action steps needed to transform a system that has led to the loss of too many lives. Get engaged at: https://www.obama.org/anguish-and-action/. \n\nPresident Obama joins Former U.S. Attorney General Eric Holder, President of Color of Change Rashad Robinson, Minneapolis City Council Representative Phillipe Cunningham, and MBK Columbus Youth Leader Playon Patrick, in a conversation moderated by Campaign Zero co-founder Brittany Packnett Cunningham."
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "ejf0FQKtg_eK-g2WwWSzgkxH44Q",
+            "id": "i_FE78X-qdY",
+            "snippet": {
+              "publishedAt": "2020-06-04T03:53:02Z",
+              "channelId": "UCarEovlrD9QY-fy-Z6apIDQ",
+              "title": "We Cannot Stay Silent About George Floyd | Patriot Act Digital Exclusive | Netflix",
+              "description": "National Bail Fund Network: https://www.communityjusticeexchange.org/nbfn-directory\n\nKnow Your Rights Camp: https://www.knowyourrightscamp.com/\n\nCampaign Zero: https://www.joincampaignzero.org/\n\nTo learn more about how you can support Black Lives Matter, visit: https://blacklivesmatters.carrd.co\n\nAHMAUD ARBERY\nRUMAIN BRISBON\nPHILANDO CASTILE\nWILLIAM CHAPMAN\nKEITH CHILDRESS, JR\nSTEPHON CLARK\nJOHN CRAWFORD III\nGEORGE FLOYD\nEZELL FORD\nERIC GARNER\nBRENDON GLENN\nOSCAR GRANT\nFREDDIE GREY\nAKAI GURLEY\nBOTHAM JEAN\nATATIANA JEFFERSON\nBETTIE JONES\nTRAYVON MARTIN\nERIC REASON\nTAMIR RICE\nTONY ROBINSON JR\nJONATHAN SANDERS\nWALTER SCOTT\nALTON STERLING\nBREONNA TAYLOR\n\nHasan responds to the recent protests in America over police brutality. \n\nAbout Patriot Act with Hasan Minhaj:\nHasan Minhaj brings an incisive and nuanced perspective to global news, politics, and culture in his weekly Netflix comedy series.\n\nConnect with Patriot Act with Hasan Minhaj Online:\nVisit Patriot Act with Hasan Minhaj WEBSITE: https://bit.ly/2JbZISS\nLike Patriot Act with Hasan Minhaj on FACEBOOK: https://bit.ly/2R5RAWY\nFollow Patriot Act with Hasan Minhaj on TWITTER: https://bit.ly/2CWqPkN\nFollow Patriot Act with Hasan Minhaj on INSTAGRAM: https://bit.ly/2OH80Ir",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/i_FE78X-qdY/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/i_FE78X-qdY/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/i_FE78X-qdY/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/i_FE78X-qdY/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/i_FE78X-qdY/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Patriot Act",
+              "tags": [
+                "Netflix",
+                "Patriot Act",
+                "Hasan Minhaj",
+                "Netflix Original Series",
+                "Netflix Series",
+                "Streaming",
+                "Television",
+                "Television Online",
+                "Comedy",
+                "Featured",
+                "Comedian",
+                "Hasan Minhaj Comedy",
+                "Hasan Minhaj Stand up",
+                "Global News",
+                "Politics",
+                "Late Night Comedy",
+                "Late Night Talk",
+                "Indian American",
+                "jokes",
+                "talk show",
+                "latest episode",
+                "India",
+                "Racism",
+                "George Floyd",
+                "Minnesota",
+                "Minneapolis",
+                "Protests",
+                "Black Lives Matter",
+                "Police Brutality",
+                "Keith Ellison",
+                "Police",
+                "Death",
+                "Derek Chauvin",
+                "Palestine",
+                "Logan Paul",
+                "Breonna Taylor"
+              ],
+              "categoryId": "22",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "We Cannot Stay Silent About George Floyd | Patriot Act Digital Exclusive | Netflix",
+                "description": "National Bail Fund Network: https://www.communityjusticeexchange.org/nbfn-directory\n\nKnow Your Rights Camp: https://www.knowyourrightscamp.com/\n\nCampaign Zero: https://www.joincampaignzero.org/\n\nTo learn more about how you can support Black Lives Matter, visit: https://blacklivesmatters.carrd.co\n\nAHMAUD ARBERY\nRUMAIN BRISBON\nPHILANDO CASTILE\nWILLIAM CHAPMAN\nKEITH CHILDRESS, JR\nSTEPHON CLARK\nJOHN CRAWFORD III\nGEORGE FLOYD\nEZELL FORD\nERIC GARNER\nBRENDON GLENN\nOSCAR GRANT\nFREDDIE GREY\nAKAI GURLEY\nBOTHAM JEAN\nATATIANA JEFFERSON\nBETTIE JONES\nTRAYVON MARTIN\nERIC REASON\nTAMIR RICE\nTONY ROBINSON JR\nJONATHAN SANDERS\nWALTER SCOTT\nALTON STERLING\nBREONNA TAYLOR\n\nHasan responds to the recent protests in America over police brutality. \n\nAbout Patriot Act with Hasan Minhaj:\nHasan Minhaj brings an incisive and nuanced perspective to global news, politics, and culture in his weekly Netflix comedy series.\n\nConnect with Patriot Act with Hasan Minhaj Online:\nVisit Patriot Act with Hasan Minhaj WEBSITE: https://bit.ly/2JbZISS\nLike Patriot Act with Hasan Minhaj on FACEBOOK: https://bit.ly/2R5RAWY\nFollow Patriot Act with Hasan Minhaj on TWITTER: https://bit.ly/2CWqPkN\nFollow Patriot Act with Hasan Minhaj on INSTAGRAM: https://bit.ly/2OH80Ir"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "1-LsmhGI78XHwyp8B68PlMlwG2U",
+            "id": "y4xBFHjkUvw",
+            "snippet": {
+              "publishedAt": "2020-06-04T01:46:17Z",
+              "channelId": "UCtI0Hodo5o5dUb67FeUjDeA",
+              "title": "Starlink Mission",
+              "description": "SpaceX is targeting Wednesday June 3 at 9:25 p.m. EDT, 1:25 UTC on June 4, for its eighth launch of Starlink satellites. Falcon 9 will lift off from Space Launch Complex 40 (SLC-40) at Cape Canaveral Air Force Station. A backup opportunity is available on Thursday, June 4 at 9:03 p.m. EDT, 1:03 UTC on June 5. \n\nFalcon 9’s first stage previously supported the Telstar 18 VANTAGE mission in September 2018, the Iridium-8 mission in January 2019, and two separate Starlink missions in May 2019 and in January 2020. Following stage separation, SpaceX will land Falcon 9’s first stage on the “Just Read the Instructions” droneship, which will be stationed in the Atlantic Ocean. \n\nThe Starlink satellites will deploy in an elliptical orbit approximately 15 minutes after liftoff. Prior to orbit raise, SpaceX engineers will conduct data reviews to ensure all Starlink satellites are operating as intended. Once the checkouts are complete, the satellites will then use their onboard ion thrusters to move into their intended orbits and operational altitude of 550 km.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/y4xBFHjkUvw/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/y4xBFHjkUvw/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/y4xBFHjkUvw/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/y4xBFHjkUvw/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/y4xBFHjkUvw/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "SpaceX",
+              "categoryId": "28",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Starlink Mission",
+                "description": "SpaceX is targeting Wednesday June 3 at 9:25 p.m. EDT, 1:25 UTC on June 4, for its eighth launch of Starlink satellites. Falcon 9 will lift off from Space Launch Complex 40 (SLC-40) at Cape Canaveral Air Force Station. A backup opportunity is available on Thursday, June 4 at 9:03 p.m. EDT, 1:03 UTC on June 5. \n\nFalcon 9’s first stage previously supported the Telstar 18 VANTAGE mission in September 2018, the Iridium-8 mission in January 2019, and two separate Starlink missions in May 2019 and in January 2020. Following stage separation, SpaceX will land Falcon 9’s first stage on the “Just Read the Instructions” droneship, which will be stationed in the Atlantic Ocean. \n\nThe Starlink satellites will deploy in an elliptical orbit approximately 15 minutes after liftoff. Prior to orbit raise, SpaceX engineers will conduct data reviews to ensure all Starlink satellites are operating as intended. Once the checkouts are complete, the satellites will then use their onboard ion thrusters to move into their intended orbits and operational altitude of 550 km."
+              }
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "QIv0wW_2Yjr18m6Uy7LFwMfzsqM",
+            "id": "xdyDpP2s-og",
+            "snippet": {
+              "publishedAt": "2020-06-04T12:58:59Z",
+              "channelId": "UCy0Pr5u-MwGXXzp_GDd4m_g",
+              "title": "Explaining the Pandemic to my Past Self Part 2",
+              "description": "What would happen if I tried to explain what's happening now to the April 2020 version of myself?\nPart 1 here: https://youtu.be/Ms7capx4Cb8",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/xdyDpP2s-og/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/xdyDpP2s-og/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/xdyDpP2s-og/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/xdyDpP2s-og/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/xdyDpP2s-og/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Julie Nolke",
+              "tags": [
+                "withme",
+                "funny",
+                "sketch",
+                "comedy"
+              ],
+              "categoryId": "23",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Explaining the Pandemic to my Past Self Part 2",
+                "description": "What would happen if I tried to explain what's happening now to the April 2020 version of myself?\nPart 1 here: https://youtu.be/Ms7capx4Cb8"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "9S3j4oPJnOQZSmcabFj2QNsnK3Y",
+            "id": "MHscI4TK55s",
+            "snippet": {
+              "publishedAt": "2020-06-03T09:59:47Z",
+              "channelId": "UCT2X19JJaJGUN7mrYuImANQ",
+              "title": "Golden Buzzer: 10-Year-Old Roberta Battaglia Sings Lady Gaga's \"Shallow\" - America's Got Talent 2020",
+              "description": "Roberta Battaglia received Sofia Vergara's first ever Golden Buzzer! Watch Roberta sing a lovely rendition of \"Shallow\" by Lady Gaga and Bradley Cooper.\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch America’s Got Talent Tuesdays 8/7c on NBC!\n» Stream Anytime: http://bit.ly/AGTFullEpisodes\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nABOUT AMERICA'S GOT TALENT\nAmerica’s Got Talent,\" NBC’s No. 1 summer show, returns in May with fresh new faces and familiar favorites, along with the excitement, thrills and feel-good performances that viewers have come to love each season. Creator and Executive Producer Simon Cowell is back at the star-studded judges' table with fan-favorite comedian Howie Mandel. Acclaimed actress and international superstar Sofia Vergara joins as a new judge this season alongside returning judge and global fashion icon Heidi Klum.  The dynamic Terry Crews returns as host. With the show open to acts of all ages, \"America's Got Talent\" continues to celebrate the variety format like no other show on television. Year after year, \"America's Got Talent\" features an impressive array of singers, dancers, comedians, contortionists, impressionists, magicians, ventriloquists and hopeful stars, all vying to win America's hearts and a $1 million prize.\n\nGolden Buzzer: 10-Year-Old Roberta Battaglia Sings Lady Gaga's \"Shallow\" - America's Got Talent 2020\nhttps://youtu.be/MHscI4TK55s\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/MHscI4TK55s/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/MHscI4TK55s/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/MHscI4TK55s/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/MHscI4TK55s/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/MHscI4TK55s/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "America's Got Talent",
+              "tags": [
+                "Simon Cowell",
+                "Howie Mandel",
+                "Terry Crews",
+                "America's Got Talent",
+                "AGT",
+                "AGT Best Auditions",
+                "America's Got Talent 2020",
+                "Heidi Klum",
+                "Golden Buzzer",
+                "Emotional Golden Buzzer",
+                "Sofia Vergara",
+                "Sofia Vergara Golden Buzzer",
+                "Little Girl Golden Buzzer",
+                "Lady Gaga",
+                "Shallow",
+                "Bradley Cooper",
+                "New Lady Gaga",
+                "10-year-old",
+                "kid singer",
+                "kids songs for kids",
+                "Lady Gaga cover",
+                "by",
+                "Lady",
+                "Gaga",
+                "and",
+                "Bradley",
+                "Cooper",
+                "AGT 15 Golden Buzzer",
+                "AGT Season 15",
+                "New Season AGT",
+                "TV Series",
+                "Emotional",
+                "Crying",
+                "Entertainment"
+              ],
+              "categoryId": "24",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Golden Buzzer: 10-Year-Old Roberta Battaglia Sings Lady Gaga's \"Shallow\" - America's Got Talent 2020",
+                "description": "Roberta Battaglia received Sofia Vergara's first ever Golden Buzzer! Watch Roberta sing a lovely rendition of \"Shallow\" by Lady Gaga and Bradley Cooper.\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch America’s Got Talent Tuesdays 8/7c on NBC!\n» Stream Anytime: http://bit.ly/AGTFullEpisodes\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nABOUT AMERICA'S GOT TALENT\nAmerica’s Got Talent,\" NBC’s No. 1 summer show, returns in May with fresh new faces and familiar favorites, along with the excitement, thrills and feel-good performances that viewers have come to love each season. Creator and Executive Producer Simon Cowell is back at the star-studded judges' table with fan-favorite comedian Howie Mandel. Acclaimed actress and international superstar Sofia Vergara joins as a new judge this season alongside returning judge and global fashion icon Heidi Klum.  The dynamic Terry Crews returns as host. With the show open to acts of all ages, \"America's Got Talent\" continues to celebrate the variety format like no other show on television. Year after year, \"America's Got Talent\" features an impressive array of singers, dancers, comedians, contortionists, impressionists, magicians, ventriloquists and hopeful stars, all vying to win America's hearts and a $1 million prize.\n\nGolden Buzzer: 10-Year-Old Roberta Battaglia Sings Lady Gaga's \"Shallow\" - America's Got Talent 2020\nhttps://youtu.be/MHscI4TK55s\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent"
+              },
+              "defaultAudioLanguage": "en-US"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "-1DiyjIStyjQovemp2AlVHeWkoA",
+            "id": "p2TLsTSXpzs",
+            "snippet": {
+              "publishedAt": "2020-06-03T20:01:47Z",
+              "channelId": "UCFp65-s_fyaBjVZbVyp--Kw",
+              "title": "We Broke up",
+              "description": "I am sorry I didn't say anything sooner.... sometimes it just takes time to heal. Thank you for your support during this difficult time. We will get through this... the army is still strong \n\r\nCheck out my workout routines, new videos every week: https://www.gabriellemoses.com/\n\nFOLLOW ME! :)\r\nInstagram @gabrielle_moses\r\nTikTok @gabrielle_moses1\nSnapchat @gabrielle_moses\r\n\r\n\r\nBUSINESS - gabmbusiness@gmail.com",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/p2TLsTSXpzs/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/p2TLsTSXpzs/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/p2TLsTSXpzs/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/p2TLsTSXpzs/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/p2TLsTSXpzs/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Gabrielle Moses",
+              "tags": [
+                "gabrielle moses",
+                "jack and gab",
+                "breakup",
+                "relationship"
+              ],
+              "categoryId": "22",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "We Broke up",
+                "description": "I am sorry I didn't say anything sooner.... sometimes it just takes time to heal. Thank you for your support during this difficult time. We will get through this... the army is still strong \n\r\nCheck out my workout routines, new videos every week: https://www.gabriellemoses.com/\n\nFOLLOW ME! :)\r\nInstagram @gabrielle_moses\r\nTikTok @gabrielle_moses1\nSnapchat @gabrielle_moses\r\n\r\n\r\nBUSINESS - gabmbusiness@gmail.com"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "O4LH_Dic4hwsitO6H3_p8NmX8nc",
+            "id": "NK6ZHbxqeg8",
+            "snippet": {
+              "publishedAt": "2020-06-04T03:42:40Z",
+              "channelId": "UCinjnmQEwCddOudyCC1v7qA",
+              "title": "Crowds continue to march through Los Angeles in protest of George Floyd killing",
+              "description": "Large crowds of protesters continued to march through Los Angeles more than a week after the killing of George Floyd. This broadcast aired on June 3, 2020. #LosAngeles #GeorgeFloyd\n\nStory: https://ktla.com/news/local-news/hundreds-march-through-west-hollywood-in-ongoing-protests-against-george-floyds-killing/",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/NK6ZHbxqeg8/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/NK6ZHbxqeg8/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/NK6ZHbxqeg8/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/NK6ZHbxqeg8/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/NK6ZHbxqeg8/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "KTLA 5",
+              "tags": [
+                "Local news",
+                "ktla",
+                "ktla 5 news",
+                "ktla 5",
+                "southern california",
+                "channel 5",
+                "channel 5 news",
+                "socal news",
+                "west hollywood",
+                "hollywood",
+                "george floyd",
+                "protests",
+                "los angeles"
+              ],
+              "categoryId": "25",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Crowds continue to march through Los Angeles in protest of George Floyd killing",
+                "description": "Large crowds of protesters continued to march through Los Angeles more than a week after the killing of George Floyd. This broadcast aired on June 3, 2020. #LosAngeles #GeorgeFloyd\n\nStory: https://ktla.com/news/local-news/hundreds-march-through-west-hollywood-in-ongoing-protests-against-george-floyds-killing/"
+              }
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "k6ARFEeT9t2pv0UsLXqLo7ufiJI",
+            "id": "M5Yl2_e3PEY",
+            "snippet": {
+              "publishedAt": "2020-06-04T11:21:23Z",
+              "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+              "title": "[TWICE - MORE & MORE] Comeback Stage | M COUNTDOWN 200604 EP.668",
+              "description": "- KPOP Chart Show M COUNTDOWN | EP.668\n- TWICE - MORE & MORE\n\n▶Watch more video clips:\nhttp://bit.ly/MCOUNTDOWN-KPOP2020\n\n[Kor Ver.]\n전 제가 말하는 게 주접이라고 생각 안해요. 왜냐면 팩트만 쓰기 때문이죠. 지금 트둥이들을 한 151020151020151020번은 봤는데 볼 때마다 짜릿해 새로워... 정말 너무 예뻐서 죽도록 가슴이 떨린다...♥ 'MORE & MORE' 무대!\n----------------------------------------------------------------------------\nM COUNTDOWN is the World No.1 KPOP Chart Show, which is broadcast in 14 countries.\nLive broadcast every Thursday at 6 p.m. KST.\n(매주 목요일 저녁 6시 엠넷 생방송)\n \n▶Subscribe Now! - Mnet K-POP: \nhttp://bit.ly/Subscribe-Mnet-KPOP\n\nFacebook: http://www.facebook.com/mcountdown\nTwitter: https://twitter.com/MnetMCOUNTDOWN\n________________________________________________\n\nMnet(Music Network) is an official KPOP music television in South Korea owned by CJ Group.\nⓒCJ ENM. Corp ALL RIGHTS RESERVED\n------------------------------------------------------------------\n ▶[Mnet] 구독 http://www.youtube.com/channel/UCepUWUpH45hRTi-QePdq1Bg?sub_confirmation=1\n ▶[엠카운트다운] 지금 뜨는 동영상 : http://www.tving.com/smr/vod/player/P/C01_B120041702?from=youtube\n ▶[Mnet] 라이브 : http://www.tving.com/live/player/C00579\n------------------------------------------------------------------\n #TWICE#트와이스#MOREandMORE#엠카운트다운#엠카#MCD#MCOUNTDOWN#엠넷#Mnet#케이팝#KPOP",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/M5Yl2_e3PEY/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/M5Yl2_e3PEY/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/M5Yl2_e3PEY/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/M5Yl2_e3PEY/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/M5Yl2_e3PEY/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Mnet K-POP",
+              "tags": [
+                "TWICE",
+                "트와이스",
+                "MOREandMORE",
+                "엠카운트다운",
+                "엠카",
+                "MCD",
+                "MCOUNTDOWN",
+                "엠넷",
+                "Mnet",
+                "케이팝",
+                "KPOP"
+              ],
+              "categoryId": "24",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "[TWICE - MORE & MORE] Comeback Stage | M COUNTDOWN 200604 EP.668",
+                "description": "- KPOP Chart Show M COUNTDOWN | EP.668\n- TWICE - MORE & MORE\n\n▶Watch more video clips:\nhttp://bit.ly/MCOUNTDOWN-KPOP2020\n\n[Kor Ver.]\n전 제가 말하는 게 주접이라고 생각 안해요. 왜냐면 팩트만 쓰기 때문이죠. 지금 트둥이들을 한 151020151020151020번은 봤는데 볼 때마다 짜릿해 새로워... 정말 너무 예뻐서 죽도록 가슴이 떨린다...♥ 'MORE & MORE' 무대!\n----------------------------------------------------------------------------\nM COUNTDOWN is the World No.1 KPOP Chart Show, which is broadcast in 14 countries.\nLive broadcast every Thursday at 6 p.m. KST.\n(매주 목요일 저녁 6시 엠넷 생방송)\n \n▶Subscribe Now! - Mnet K-POP: \nhttp://bit.ly/Subscribe-Mnet-KPOP\n\nFacebook: http://www.facebook.com/mcountdown\nTwitter: https://twitter.com/MnetMCOUNTDOWN\n________________________________________________\n\nMnet(Music Network) is an official KPOP music television in South Korea owned by CJ Group.\nⓒCJ ENM. Corp ALL RIGHTS RESERVED\n------------------------------------------------------------------\n ▶[Mnet] 구독 http://www.youtube.com/channel/UCepUWUpH45hRTi-QePdq1Bg?sub_confirmation=1\n ▶[엠카운트다운] 지금 뜨는 동영상 : http://www.tving.com/smr/vod/player/P/C01_B120041702?from=youtube\n ▶[Mnet] 라이브 : http://www.tving.com/live/player/C00579\n------------------------------------------------------------------\n #TWICE#트와이스#MOREandMORE#엠카운트다운#엠카#MCD#MCOUNTDOWN#엠넷#Mnet#케이팝#KPOP"
+              },
+              "defaultAudioLanguage": "ko"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "IHt6yY05LNKORv9vNYJfieLlD5E",
+            "id": "8e1ld1uGpXA",
+            "snippet": {
+              "publishedAt": "2020-06-03T00:08:01Z",
+              "channelId": "UCrlIS7z20CnVaCrMvdkig_g",
+              "title": "Must watch: Woman gives powerful speech to looters on streets of NYC",
+              "description": "(Video credit : Dan Ladue) A New York City woman's impassioned plea to a group of looters to stop what they were doing is resonating with people across the country.\n\nDesiree Barnes said she approached the group Saturday night in the East Village after they began looting the stores below her apartment.\n\nThat is when a man on the street noticed her message and started filming.\n\nMore details: https://7ny.tv/2zM3t1i\n\n----\n\nCheck out more Eyewitness News - http://7ny.tv/2suJHTd\n\nNEW HERE? – \n\nHi! We’re abc7NY, also known as Channel 7 on TV, home to Eyewitness News, New York’s Number 1 news.   We hope you love us on YouTube as much as you do on television!\n\nOUR SOCIAL MEDIA –\n\nFACEBOOK: https://www.facebook.com/ABC7NY/\nTWITTER: https://twitter.com/abc7ny\nINSTAGRAM: https://www.instagram.com/abc7ny/\n\n\nNEW TIPS:\n\nOnline: https://7ny.tv/36UsL9a\nPhone: 917-260-7700\nEmail: abc7ny@abc.com\n\n#looting #georgefloyd #nyc",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/8e1ld1uGpXA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/8e1ld1uGpXA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/8e1ld1uGpXA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/8e1ld1uGpXA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/8e1ld1uGpXA/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Eyewitness News ABC7NY",
+              "tags": [
+                "news",
+                "east village",
+                "looting",
+                "viral video",
+                "confrontation",
+                "vandalism",
+                "woman yells at looters",
+                "new york city",
+                "george floyd",
+                "riots",
+                "protests",
+                "Desiree Barnes",
+                "former obama aide rant",
+                "former obama aide looters",
+                "desiree barnes obama",
+                "des'ree barnes bmx",
+                "nyc george floyd",
+                "nyc george floyd protest",
+                "nyc george floyd riot",
+                "nyc looting",
+                "nyc looter"
+              ],
+              "categoryId": "25",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Must watch: Woman gives powerful speech to looters on streets of NYC",
+                "description": "(Video credit : Dan Ladue) A New York City woman's impassioned plea to a group of looters to stop what they were doing is resonating with people across the country.\n\nDesiree Barnes said she approached the group Saturday night in the East Village after they began looting the stores below her apartment.\n\nThat is when a man on the street noticed her message and started filming.\n\nMore details: https://7ny.tv/2zM3t1i\n\n----\n\nCheck out more Eyewitness News - http://7ny.tv/2suJHTd\n\nNEW HERE? – \n\nHi! We’re abc7NY, also known as Channel 7 on TV, home to Eyewitness News, New York’s Number 1 news.   We hope you love us on YouTube as much as you do on television!\n\nOUR SOCIAL MEDIA –\n\nFACEBOOK: https://www.facebook.com/ABC7NY/\nTWITTER: https://twitter.com/abc7ny\nINSTAGRAM: https://www.instagram.com/abc7ny/\n\n\nNEW TIPS:\n\nOnline: https://7ny.tv/36UsL9a\nPhone: 917-260-7700\nEmail: abc7ny@abc.com\n\n#looting #georgefloyd #nyc"
+              }
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "BvgeajJxur8b_HVKzLqKWr31W0s",
+            "id": "dFZjpRNhk-c",
+            "snippet": {
+              "publishedAt": "2020-06-03T18:52:50Z",
+              "channelId": "UCE9ZKI1b_PhVm3gejYuilhw",
+              "title": "LOGAN PAUL RESPONDS TO JAKE PAUL LOOTING ACCUSATIONS",
+              "description": "Video from Ep.189 America Is Racist https://www.youtube.com/watch?v=eCfmJx7feZc\n\nJoin The Movement. Be A Maverick ► https://maverickbyloganpaul.com\nSUBSCRIBE TO THE PODCAST ► https://www.youtube.com/impaulsive\n\nLISTEN ON:\nITUNES: https://itunes.apple.com/us/podcast/impaulsive-with-logan-paul/id1442164847?mt=2\nSPOTIFY: https://open.spotify.com/show/36PzTdM4rvRPaJYdBW1ZNa?si=NIdEVBarRWuw17x3ubWZCw\nCASTBOX: https://castbox.fm/vc/1486024\n\nADD ME ON:\nINSTAGRAM: https://www.instagram.com/LoganPaul/\nTWITTER: https://twitter.com/LoganPaul\n\n***PLEASE NOTE***\nImpaulsive is a significant break from the typical content viewers have come to expect from the vlog channel & we could not be more proud and excited to watch this unfold and grow. Please be advised that we will be exploring a wide variety of topics (some adult-themed) and our younger viewers (and their parents) should be advised that some topics will be for mature audiences only.\n\n#JakePaul #LoganPaul",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/dFZjpRNhk-c/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/dFZjpRNhk-c/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/dFZjpRNhk-c/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/dFZjpRNhk-c/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/dFZjpRNhk-c/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Impaulsive Clips",
+              "tags": [
+                "impaulsive clips",
+                "impaulsive",
+                "logan paul podcast",
+                "logan paul",
+                "maverick",
+                "maverick media",
+                "maverick house",
+                "jake paul",
+                "jake paul looting",
+                "jake paul arizona"
+              ],
+              "categoryId": "24",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "LOGAN PAUL RESPONDS TO JAKE PAUL LOOTING ACCUSATIONS",
+                "description": "Video from Ep.189 America Is Racist https://www.youtube.com/watch?v=eCfmJx7feZc\n\nJoin The Movement. Be A Maverick ► https://maverickbyloganpaul.com\nSUBSCRIBE TO THE PODCAST ► https://www.youtube.com/impaulsive\n\nLISTEN ON:\nITUNES: https://itunes.apple.com/us/podcast/impaulsive-with-logan-paul/id1442164847?mt=2\nSPOTIFY: https://open.spotify.com/show/36PzTdM4rvRPaJYdBW1ZNa?si=NIdEVBarRWuw17x3ubWZCw\nCASTBOX: https://castbox.fm/vc/1486024\n\nADD ME ON:\nINSTAGRAM: https://www.instagram.com/LoganPaul/\nTWITTER: https://twitter.com/LoganPaul\n\n***PLEASE NOTE***\nImpaulsive is a significant break from the typical content viewers have come to expect from the vlog channel & we could not be more proud and excited to watch this unfold and grow. Please be advised that we will be exploring a wide variety of topics (some adult-themed) and our younger viewers (and their parents) should be advised that some topics will be for mature audiences only.\n\n#JakePaul #LoganPaul"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "lGuwqWP1rrGVP9ll-FbJuUAOcK8",
+            "id": "QAy57II9voo",
+            "snippet": {
+              "publishedAt": "2020-06-02T23:45:35Z",
+              "channelId": "UCVxBA3Cbu3pm8w8gEIoMEog",
+              "title": "Protests held in Hollywood and throughout Southern California | George Floyd death",
+              "description": "Multiple protests were held in Southern California, including Hollywood, Northridge, Brea, downtown L.A. and Manhattan Beach to protest the death of George Floyd. Latest details, coverage here: https://abc7.com/community-events/live-hundreds-in-hollywood-for-protest-promoted-by-rapper-yg/6226822/",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/QAy57II9voo/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/QAy57II9voo/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/QAy57II9voo/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/QAy57II9voo/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/QAy57II9voo/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "ABC7",
+              "categoryId": "25",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Protests held in Hollywood and throughout Southern California | George Floyd death",
+                "description": "Multiple protests were held in Southern California, including Hollywood, Northridge, Brea, downtown L.A. and Manhattan Beach to protest the death of George Floyd. Latest details, coverage here: https://abc7.com/community-events/live-hundreds-in-hollywood-for-protest-promoted-by-rapper-yg/6226822/"
+              }
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "AcP8TqeB8ZFJjnUuUAysCV34VHA",
+            "id": "xKWksxNKzHQ",
+            "snippet": {
+              "publishedAt": "2020-06-04T00:09:19Z",
+              "channelId": "UCiWLfSweyRNmLpgEHekhoAg",
+              "title": "Booger McFarland on Drew Brees’ comments and Colin Kaepernick kneeling during the National Anthem",
+              "description": "Booger McFarland joins SportsCenter to react to New Orleans Saints quarterback Drew Brees' comments that he \"will never agree with anybody disrespecting the flag of the of the United States of America\" by kneeling during the national anthem. Booger says the remarks show that Brees doesn't grasp what Colin Kaepernick and other athletes were advocating for in their peaceful protests. \n#SportsCenter #NFL\n✔️Subscribe to ESPN+ https://plus.espn.com/\n✔️ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔️Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔️ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔️ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV\n\nESPN on Social Media:\n► Follow on Twitter: http://www.twitter.com/espn\n► Like on Facebook: http://www.facebook.com/espn\n► Follow on Instagram: http://www.instagram.com/espn\n\nVisit ESPN on YouTube to get up-to-the-minute sports news coverage, scores, highlights and commentary for NFL, NHL, MLB, NBA, College Football, NCAA Basketball, soccer and more. \n\nMore on ESPN.com: https://www.espn.com",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/xKWksxNKzHQ/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/xKWksxNKzHQ/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/xKWksxNKzHQ/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/xKWksxNKzHQ/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/xKWksxNKzHQ/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "ESPN",
+              "tags": [
+                "drew brees",
+                "drew brees interview",
+                "drew brees comments",
+                "drew brees kneeling national anthem",
+                "drew brees colin kaepernick",
+                "colin kaepernick",
+                "colin kaepernick kneel",
+                "kaepernick",
+                "colin kaepernick george floyd",
+                "brees",
+                "new orleans saints",
+                "nfl",
+                "nfl news",
+                "booger mcfarland",
+                "booger mcfarland drew brees",
+                "drew brees statement",
+                "drew brees lebron james",
+                "drew brees michael thomas",
+                "lebron james",
+                "michael thomas",
+                "george floyd",
+                "george floyd protest",
+                "disrespecting the flag",
+                "nfl 2020",
+                "#espn",
+                "espn"
+              ],
+              "categoryId": "17",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "Booger McFarland on Drew Brees’ comments and Colin Kaepernick kneeling during the National Anthem",
+                "description": "Booger McFarland joins SportsCenter to react to New Orleans Saints quarterback Drew Brees' comments that he \"will never agree with anybody disrespecting the flag of the of the United States of America\" by kneeling during the national anthem. Booger says the remarks show that Brees doesn't grasp what Colin Kaepernick and other athletes were advocating for in their peaceful protests. \n#SportsCenter #NFL\n✔️Subscribe to ESPN+ https://plus.espn.com/\n✔️ Get the ESPN App: http://www.espn.com/espn/apps/espn\n✔️Subscribe to ESPN on YouTube: http://es.pn/SUBSCRIBEtoYOUTUBE\n✔️ Subscribe to NBA on ESPN on YouTube: http://bit.ly/SUBSCRIBEtoNBAonESPN\n✔️ Watch ESPN on YouTube TV: http://es.pn/YouTubeTV\n\nESPN on Social Media:\n► Follow on Twitter: http://www.twitter.com/espn\n► Like on Facebook: http://www.facebook.com/espn\n► Follow on Instagram: http://www.instagram.com/espn\n\nVisit ESPN on YouTube to get up-to-the-minute sports news coverage, scores, highlights and commentary for NFL, NHL, MLB, NBA, College Football, NCAA Basketball, soccer and more. \n\nMore on ESPN.com: https://www.espn.com"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "E-wvOZQqm9Gikwcb_C4vcYtEkxs",
+            "id": "SoMh2SXvnZA",
+            "snippet": {
+              "publishedAt": "2020-06-03T18:30:17Z",
+              "channelId": "UCXIJgqnII2ZOINSWNOGFThA",
+              "title": "All four officers in George Floyd case to be charged by Minnesota AG",
+              "description": "Senator Amy Klobuchar (D-MN) announced that Minnesota Attorney General Keith Ellison is increasing Derek Chavin's charge to second degree murder and is charging the other three officers involved in the case.\n\nSubscribe to Fox News! https://bit.ly/2vBUvAS\nWatch more Fox News Video: http://video.foxnews.com\nWatch Fox News Channel Live: http://www.foxnewsgo.com/\n\nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as well as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre.\n\nWatch full episodes of your favorite shows\nThe Five: http://video.foxnews.com/playlist/longform-the-five/\nSpecial Report with Bret Baier: http://video.foxnews.com/playlist/longform-special-report/\nThe Story with Martha Maccallum: http://video.foxnews.com/playlist/longform-the-story-with-martha-maccallum/\nTucker Carlson Tonight: http://video.foxnews.com/playlist/longform-tucker-carlson-tonight/\nHannity: http://video.foxnews.com/playlist/longform-hannity/\nThe Ingraham Angle: http://video.foxnews.com/playlist/longform-the-ingraham-angle/\nFox News @ Night: http://video.foxnews.com/playlist/longform-fox-news-night/\nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/\nFollow Fox News on Twitter: https://twitter.com/FoxNews/\nFollow Fox News on Instagram: https://www.instagram.com/foxnews/om/",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/SoMh2SXvnZA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/SoMh2SXvnZA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/SoMh2SXvnZA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/SoMh2SXvnZA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/SoMh2SXvnZA/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Fox News",
+              "tags": [
+                "Fox News Channel",
+                "Fox News",
+                "News",
+                "george floyd",
+                "derek chauvin",
+                "chauvin",
+                "derek chauvin charges",
+                "derek chauvin second degree murder",
+                "george floyd case",
+                "george floyd murder",
+                "police brutality",
+                "police brutality protests",
+                "black lives matter protests",
+                "klobuchar",
+                "minnesota attorney general",
+                "keith ellison",
+                "minnesota attorney general keith ellison",
+                "minneapolis police",
+                "minneapolis police department"
+              ],
+              "categoryId": "25",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "All four officers in George Floyd case to be charged by Minnesota AG",
+                "description": "Senator Amy Klobuchar (D-MN) announced that Minnesota Attorney General Keith Ellison is increasing Derek Chavin's charge to second degree murder and is charging the other three officers involved in the case.\n\nSubscribe to Fox News! https://bit.ly/2vBUvAS\nWatch more Fox News Video: http://video.foxnews.com\nWatch Fox News Channel Live: http://www.foxnewsgo.com/\n\nFOX News Channel (FNC) is a 24-hour all-encompassing news service delivering breaking news as well as political and business news. The number one network in cable, FNC has been the most-watched television news channel for 18 consecutive years. According to a 2020 Brand Keys Consumer Loyalty Engagement Index report, FOX News is the top brand in the country for morning and evening news coverage. A 2019 Suffolk University poll named FOX News as the most trusted source for television news or commentary, while a 2019 Brand Keys Emotion Engagement Analysis survey found that FOX News was the most trusted cable news brand. A 2017 Gallup/Knight Foundation survey also found that among Americans who could name an objective news source, FOX News was the top-cited outlet. Owned by FOX Corporation, FNC is available in nearly 90 million homes and dominates the cable news landscape, routinely notching the top ten programs in the genre.\n\nWatch full episodes of your favorite shows\nThe Five: http://video.foxnews.com/playlist/longform-the-five/\nSpecial Report with Bret Baier: http://video.foxnews.com/playlist/longform-special-report/\nThe Story with Martha Maccallum: http://video.foxnews.com/playlist/longform-the-story-with-martha-maccallum/\nTucker Carlson Tonight: http://video.foxnews.com/playlist/longform-tucker-carlson-tonight/\nHannity: http://video.foxnews.com/playlist/longform-hannity/\nThe Ingraham Angle: http://video.foxnews.com/playlist/longform-the-ingraham-angle/\nFox News @ Night: http://video.foxnews.com/playlist/longform-fox-news-night/\nFollow Fox News on Facebook: https://www.facebook.com/FoxNews/\nFollow Fox News on Twitter: https://twitter.com/FoxNews/\nFollow Fox News on Instagram: https://www.instagram.com/foxnews/om/"
+              }
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "_hTZE4AzI0dYszJI6HdLePKJqUY",
+            "id": "V62Cr-fATfk",
+            "snippet": {
+              "publishedAt": "2020-06-04T14:00:09Z",
+              "channelId": "UChDKyKQ59fYz3JO2fl0Z6sg",
+              "title": "3 More Charged In George Floyd’s Killing, Defense Secretaries Criticize Trump | TODAY",
+              "description": "Charges against Minneapolis police officer Derek Chauvin in the killing of George Floyd were upgraded to second-degree murder, while three officers who stood by as Floyd was killed were charged with aiding in his death. Meanwhile, President Trump’s handling of protests was criticized by both his first and current secretaries of defense. See all the top TODAY news in one video.\n» Subscribe to TODAY: http://on.today.com/SubscribeToTODAY\n» Watch the latest from TODAY: http://bit.ly/LatestTODAY\n\nAbout: TODAY brings you the latest headlines and expert tips on money, health and parenting. We wake up every morning to give you and your family all you need to start your day. If it matters to you, it matters to us. We are in the people business. Subscribe to our channel for exclusive TODAY archival footage & our original web series.  \n\nConnect with TODAY Online!\nVisit TODAY's Website: http://on.today.com/ReadTODAY\nFind TODAY on Facebook: http://on.today.com/LikeTODAY\nFollow TODAY on Twitter: http://on.today.com/FollowTODAY\nFollow TODAY on Instagram: http://on.today.com/InstaTODAY\nFollow TODAY on Pinterest: http://on.today.com/PinTODAY\n\n#Racism #GeorgeFloyd #TodayShow\n\n3 More Charged In George Floyd’s Killing, Defense Secretaries Criticize Trump | TODAY",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/V62Cr-fATfk/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/V62Cr-fATfk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/V62Cr-fATfk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/V62Cr-fATfk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/V62Cr-fATfk/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "TODAY",
+              "tags": [
+                "News",
+                "Editor's picks",
+                "Big News",
+                "Today",
+                "The TODAY Show",
+                "TODAY Show",
+                "NBC",
+                "NBC News",
+                "Hoda and Jenna",
+                "Megyn Kelly",
+                "Al Roker",
+                "Savannah Guthrie",
+                "george floyd",
+                "police brutality",
+                "police violence",
+                "police murder",
+                "police racism",
+                "police killing",
+                "racism",
+                "racist police",
+                "george floyd murder",
+                "protest",
+                "george floyd protests",
+                "civil rights",
+                "george floyd death",
+                "george floyd killed",
+                "george floyd police",
+                "george floyd protest",
+                "george floyd riots",
+                "riots",
+                "peaceful protests",
+                "The latest on today"
+              ],
+              "categoryId": "25",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "3 More Charged In George Floyd’s Killing, Defense Secretaries Criticize Trump | TODAY",
+                "description": "Charges against Minneapolis police officer Derek Chauvin in the killing of George Floyd were upgraded to second-degree murder, while three officers who stood by as Floyd was killed were charged with aiding in his death. Meanwhile, President Trump’s handling of protests was criticized by both his first and current secretaries of defense. See all the top TODAY news in one video.\n» Subscribe to TODAY: http://on.today.com/SubscribeToTODAY\n» Watch the latest from TODAY: http://bit.ly/LatestTODAY\n\nAbout: TODAY brings you the latest headlines and expert tips on money, health and parenting. We wake up every morning to give you and your family all you need to start your day. If it matters to you, it matters to us. We are in the people business. Subscribe to our channel for exclusive TODAY archival footage & our original web series.  \n\nConnect with TODAY Online!\nVisit TODAY's Website: http://on.today.com/ReadTODAY\nFind TODAY on Facebook: http://on.today.com/LikeTODAY\nFollow TODAY on Twitter: http://on.today.com/FollowTODAY\nFollow TODAY on Instagram: http://on.today.com/InstaTODAY\nFollow TODAY on Pinterest: http://on.today.com/PinTODAY\n\n#Racism #GeorgeFloyd #TodayShow\n\n3 More Charged In George Floyd’s Killing, Defense Secretaries Criticize Trump | TODAY"
+              },
+              "defaultAudioLanguage": "en"
+            }
+          },
+          {
+            "kind": "youtube#video",
+            "etag": "nAYvlE5RVh6pJ-X4Wqo7d7nxb2w",
+            "id": "4oI8haxRuPo",
+            "snippet": {
+              "publishedAt": "2020-06-04T04:00:01Z",
+              "channelId": "UCsEj8E122ibbJetQe8BoV7g",
+              "title": "Kane Brown - Worldwide Beautiful (Lyric Video)",
+              "description": "Benefitting the Boys and Girls Club of America to advocate for justice and equality for the millions of youth that are counting on us. For more info and to learn how you can support, click here: http://BGCA.org/KaneBrown\n\nKane Brown “Worldwide Beautiful” is available now.\n\nApple Music: https://KB.lnk.to/wwbAY/applemusic\niTunes: https://KB.lnk.to/wwbAY/itunes\nSpotify: https://KB.lnk.to/wwbAY/spotify\nAmazon Music: https://KB.lnk.to/wwbAY/amazonmusic\nPandora: https://KB.lnk.to/wwbAY/pandora\nYouTube Music: https://KB.lnk.to/wwbAY/youtubemusic\n\nSubscribe to Kane Brown's YouTube channel: http://smarturl.it/kbyoutubesubscribe\n\nFollow Kane Brown:\nNewsletter: https://smarturl.it/kbemailsubscribe?IQid=yt\nOfficial Website: https://kanebrownmusic.com\nInstagram: https://www.instagram.com/kanebrown_music\nFacebook: https://www.facebook.com/kaneallenbrown\nTwitter: https://twitter.com/kanebrown\nTikTok: https://www.tiktok.com/@kanebrown\nText Kane at 615-205-1717\n\n#KaneBrown #WorldwideBeautiful",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/4oI8haxRuPo/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/4oI8haxRuPo/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/4oI8haxRuPo/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/4oI8haxRuPo/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/4oI8haxRuPo/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "KaneBrownVEVO",
+              "tags": [
+                "Kane brown worldwide beautiful",
+                "worldwide beautiful kane brown",
+                "Kane brown world wide beautiful",
+                "Kane brown wwb",
+                "wwb kane brown",
+                "kb worldwide beautiful",
+                "kane brown cool again",
+                "one thing right marshmello",
+                "john legend sorry",
+                "last time I say sorry",
+                "becky g",
+                "lost in the middle of nowhere",
+                "Saturday nights remix",
+                "khalid & kane brown",
+                "heaven",
+                "what ifs",
+                "kane brown tiktok",
+                "lose it",
+                "good as you",
+                "homesick",
+                "live",
+                "kb tour",
+                "kane brown tour",
+                "Country",
+                "Kane"
+              ],
+              "categoryId": "10",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Kane Brown - Worldwide Beautiful (Lyric Video)",
+                "description": "Benefitting the Boys and Girls Club of America to advocate for justice and equality for the millions of youth that are counting on us. For more info and to learn how you can support, click here: http://BGCA.org/KaneBrown\n\nKane Brown “Worldwide Beautiful” is available now.\n\nApple Music: https://KB.lnk.to/wwbAY/applemusic\niTunes: https://KB.lnk.to/wwbAY/itunes\nSpotify: https://KB.lnk.to/wwbAY/spotify\nAmazon Music: https://KB.lnk.to/wwbAY/amazonmusic\nPandora: https://KB.lnk.to/wwbAY/pandora\nYouTube Music: https://KB.lnk.to/wwbAY/youtubemusic\n\nSubscribe to Kane Brown's YouTube channel: http://smarturl.it/kbyoutubesubscribe\n\nFollow Kane Brown:\nNewsletter: https://smarturl.it/kbemailsubscribe?IQid=yt\nOfficial Website: https://kanebrownmusic.com\nInstagram: https://www.instagram.com/kanebrown_music\nFacebook: https://www.facebook.com/kaneallenbrown\nTwitter: https://twitter.com/kanebrown\nTikTok: https://www.tiktok.com/@kanebrown\nText Kane at 615-205-1717\n\n#KaneBrown #WorldwideBeautiful"
+              }
+            }
+          }
+        ],
+        "nextPageToken": "CA8QAA",
+        "pageInfo": {
+          "totalResults": 200,
+          "resultsPerPage": 15
+        }
+      }
+   
