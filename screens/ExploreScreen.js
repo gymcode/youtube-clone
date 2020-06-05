@@ -1,9 +1,8 @@
 import React from 'react';
 import {View, SafeAreaView ,ScrollView, StyleSheet, Text, FlatList, Image } from 'react-native';
+import {Entypo} from '@expo/vector-icons'
 import Header from './Subcomponents/headerNav'
 import {trends} from '../data/data'
-
-console.log(trends)
 
 const Display = ({etag, channelUrl, ChannelName, views, data})=>{
   return(
@@ -17,8 +16,12 @@ const Display = ({etag, channelUrl, ChannelName, views, data})=>{
           <Text style={{color: "#000"}}>{etag}</Text>      
           <Text style={{color: "gray"}}>{ChannelName} . {views} . {data}</Text>
         </View>
-        <View style={{flex: 1}}>
-
+        <View style={{flex: 1, alignItems: "flex-end"}}>
+            <Entypo
+              name="dots-three-vertical"
+              size={14}
+              color="#a8a8a8"
+            />
         </View>
       </View>
     </View>
@@ -32,18 +35,23 @@ export default function ExploreScreen() {
         <Header/>
 
         <View>
-          <View style={{paddingVertical: 30}}>
-            <Text>fkslndjfsf</Text>
+          <View  style={{paddingVertical: 10, paddingHorizontal: 16,flexDirection:"row", backgroundColor: "whitesmoke",  justifyContent: "space-between"}}>
+            <View style={{height: 40, width: 165, backgroundColor: "red", borderRadius: 8}}>
+
+            </View>
+            <View style={{height: 40, width: 165, backgroundColor: "red", borderRadius: 8}}>
+
+            </View>
           </View>
 
           <View>
           <ScrollView>
             <View style={{justifuContent: "space-between", flexDirection: "row", padding: 20}}>
               <View style={{flex: 1}}>
-                <Text>Trending Videos</Text>
+                <Text style={{fontSize: 17}}>Trending Videos</Text>
               </View>
               <View style={{flec: 1}}>
-                <Text>See All</Text>
+                <Text style={{fontSize: 17, color: "blue"}}>See All</Text>
               </View>
             </View>
 

@@ -4,7 +4,7 @@ import Icon from "@expo/vector-icons/MaterialIcons"
 
 export default function Header(){
     return(
-    <View style={{flexDirection: "row", backgroundColor: "#ffffff", height: 50,  borderBottomWidth: .5, borderColor: "whitesmoke"}}>
+    <View style={{flexDirection: "row", backgroundColor: "#ffffff", height: 50,  borderBottomWidth: .7, borderColor: "whitesmoke"}}>
         <View style={{flex: 6, justifyContent: "center", alignContent: "center"}}>
           <Image source={require('../../assets/images/youtube.png')} style={{height: 50, marginHorizontal: 10, width: 100}}/>
         </View>

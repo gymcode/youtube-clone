@@ -9,11 +9,12 @@ import {View,
         FlatList
       } from 'react-native';
 import {homeData, games} from '../data/data'
+import {Entypo}from '@expo/vector-icons'
 
 import Header from './Subcomponents/headerNav'
 
 
-const Display = ({etag, channelUrl, ChannelName, views, data})=>{
+const Display = ({etag, channelUrl, ChannelName})=>{
   return(
     <View>     
       <View>
@@ -23,10 +24,14 @@ const Display = ({etag, channelUrl, ChannelName, views, data})=>{
         <View style={{height: 40, width: 40, borderRadius: 50,backgroundColor: "red", flex: 1}}/>
         <View style={{flex: 6, marginHorizontal: 15}}>
           <Text style={{color: "#000"}}>{etag}</Text>      
-          <Text style={{color: "gray"}}>{ChannelName} . {views} . {data}</Text>
+          <Text style={{color: "gray"}}>{ChannelName}</Text>
         </View>
-        <View style={{flex: 1}}>
-
+        <View style={{flex: 1, alignItems: "flex-end"}}>
+            <Entypo
+              name="dots-three-vertical"
+              size={14}
+              color="#a8a8a8"
+            />
         </View>
       </View>
     </View>
@@ -35,7 +40,7 @@ const Display = ({etag, channelUrl, ChannelName, views, data})=>{
 
 const List = (props)=>{
   return(
-    <View style={{paddingHorizontal: 20, marginRight: 10,height: 35, borderRadius: 20,backgroundColor: "#ccc", justifyContent: 'center', alignItems: "center", borderColor: "red"}}>
+    <View style={{paddingHorizontal: 20, marginRight: 10,height: 35, borderRadius: 20,backgroundColor: "#ededed", justifyContent: 'center', alignItems: "center", borderWidth: .8 ,borderColor: "#ccc"}}>
       <Text>{props.title}</Text>
     </View>
   )
@@ -52,6 +57,9 @@ const HomeScreen = ()=>{
           {/* sub header section */}
           <View style={{marginVertical: 10}}>
               <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                  <View style={{paddingHorizontal: 20, marginRight: 10,height: 35,borderRadius: 20,backgroundColor: "#3f3f3f", justifyContent: 'center', alignItems: "center", borderColor: "gray"}}>
+                    <Text style={{color: "#fff"}}>All</Text>
+                  </View>
                   <FlatList
                     data={games}
                     horizontal={true}
@@ -67,7 +75,6 @@ const HomeScreen = ()=>{
             
             <FlatList
               data={homeData}
-              
               renderItem={({item})=><Display 
                   etag={item.snippet.title} 
                   channelUrl={item.snippet.thumbnails.high.url} 
