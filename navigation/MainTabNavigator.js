@@ -4,12 +4,15 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import TabBarIcon from '../components/TabBarIcon';
+import MatBarIcon from '../components/MatBarIcon';
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import ExploreScreen from '../screens/ExploreScreen';
+import SubscriptionScreen from '../screens/SubscriptionScreen';
+import InboxScreen from '../screens/InboxScreen';
+import LibraryScreen from '../screens/LibraryScreen';
 
 const config = Platform.select({
-  web: { headerMode: 'none' },
+  web: { headerMode: 'none', header: null},
   default: {},
 });
 
@@ -22,10 +25,13 @@ const HomeStack = createStackNavigator(
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
-  tabBarIcon: ({ focused, red }) => (
+  tabBarOptions: { 
+    activeTintColor: "#ff0000",
+    inactiveTintColor: '#454545',
+  },
+  tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      style={[{color: red}]}
       name={
         Platform.OS === 'ios'? "ios-home" : "md:home"
       }
@@ -35,33 +41,42 @@ HomeStack.navigationOptions = {
 
 HomeStack.path = '';
 
-const TrendStack = createStackNavigator(
+const ExploreStack = createStackNavigator(
   {
-    Trend: LinksScreen,
+    Explore: ExploreScreen,
   },
   config
 );
 
-TrendStack.navigationOptions = {
-  tabBarLabel: 'Trending',
+ExploreStack.navigationOptions = {
+  header: null,
+  tabBarLabel: 'Explore',
+  tabBarOptions: { 
+    activeTintColor: "#ff0000",
+    inactiveTintColor: '#454545',
+  },
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon  focused={focused} name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'} />
+    <MatBarIcon  focused={focused} name={Platform.OS === 'ios' ? 'explore' : 'md-link'} />
   ),
 };
 
-TrendStack.path = '';
+ExploreStack.path = '';
 
 const SubscriptionStack = createStackNavigator(
   {
-    Subscription: SettingsScreen,
+    Subscription: SubscriptionScreen,
   },
   config
 );
 
 SubscriptionStack.navigationOptions = {
   tabBarLabel: 'Subscription',
+  tabBarOptions: { 
+    activeTintColor: "#ff0000",
+    inactiveTintColor: '#454545',
+  },
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
+    <MatBarIcon focused={focused} name={Platform.OS === 'ios' ? 'subscriptions' : 'md-options'} />
   ),
 };
 
@@ -69,15 +84,19 @@ SubscriptionStack.path = '';
 
 const InboxStack = createStackNavigator(
   {
-    Inbox: SettingsScreen,
+    Inbox: InboxScreen,
   },
   config
 );
 
 InboxStack.navigationOptions = {
   tabBarLabel: 'Inbox',
+  tabBarOptions: { 
+    activeTintColor: "#ff0000",
+    inactiveTintColor: '#454545',
+  },
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-mail' : 'md-mail'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'md-mail' : 'md-mail'} />
   ),
 };
 
@@ -85,15 +104,19 @@ InboxStack.path = '';
 
 const LibraryStack = createStackNavigator(
   {
-    Library: SettingsScreen,
+    Library: LibraryScreen    ,
   },
   config
 );
 
 LibraryStack.navigationOptions = {
   tabBarLabel: 'Library',
+  tabBarOptions: { 
+    activeTintColor: "#ff0000",
+    inactiveTintColor: '#454545',
+  },
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
+    <MatBarIcon focused={focused} name={Platform.OS === 'ios' ? 'video-library' : 'md-options'} />
   ),
 };
 
@@ -101,7 +124,7 @@ LibraryStack.path = '';
 
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
-  TrendStack,
+  ExploreStack,
   SubscriptionStack,
   InboxStack,
   LibraryStack,

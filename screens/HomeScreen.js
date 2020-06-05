@@ -1,65 +1,89 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import {View, 
         Text,
         TouchableOpacity,
-        Image} from 'react-native';
-import Icon from "@expo/vector-icons/MaterialIcons"
+        Image,
+        ScrollView, 
+        SafeAreaView, 
+        FlatList
+      } from 'react-native';
+import {homeData, games} from '../data/data'
 
+import Header from './Subcomponents/headerNav'
+
+
+const Display = ({etag, channelUrl, ChannelName, views, data})=>{
+  return(
+    <View>     
+      <View>
+        <Image source={{uri: channelUrl}} style={{height: 220, width: 400}}/>
+      </View>
+      <View style={{flexDirection: "row", padding: 15}}>
+        <View style={{height: 40, width: 40, borderRadius: 50,backgroundColor: "red", flex: 1}}/>
+        <View style={{flex: 6, marginHorizontal: 15}}>
+          <Text style={{color: "#000"}}>{etag}</Text>      
+          <Text style={{color: "gray"}}>{ChannelName} . {views} . {data}</Text>
+        </View>
+        <View style={{flex: 1}}>
+
+        </View>
+      </View>
+    </View>
+  )
+}
+
+const List = (props)=>{
+  return(
+    <View style={{paddingHorizontal: 20, marginRight: 10,height: 35, borderRadius: 20,backgroundColor: "#ccc", justifyContent: 'center', alignItems: "center", borderColor: "red"}}>
+      <Text>{props.title}</Text>
+    </View>
+  )
+}
 
 const HomeScreen = ()=>{
 
   return(
+    <SafeAreaView style={{flex:1}}>
+        <View>
+          {/* header */}
+          <Header/>
 
-    <View style={{flex: 1, backgroundColor: "#f8f8f8"}}>
-      
-      <View style={{flexDirection: "row", backgroundColor: "#ffffff", height: 60,  borderBottomWidth: .5, borderColor: "whitesmoke"}}>
-        <View style={{flex: 6, justifyContent: "center", alignContent: "center"}}>
-          <Image source={require('../assets/images/youtube.png')} style={{height: 50, marginHorizontal: 10, width: 100}}/>
-        </View>
-        <View style={{flex: .8, height:25, justifyContent: "space-between", marginTop: 15, marginHorizontal:7, borderRadius: 100}}>
-          <TouchableOpacity>
-            <Icon 
-                  name="cast"
-                  size={25}
-                />
-          </TouchableOpacity>
-        </View>
-        <View style={{flex: .8, height:25, justifyContent: "space-between", marginTop: 15, marginHorizontal:7, borderRadius: 100}}>
-          <TouchableOpacity>
-            <Icon 
-                  name="videocam"
-                  size={25}
-                />
-          </TouchableOpacity>
-        </View>
-        <View style={{flex: .8, height:25, justifyContent: "space-between", marginTop: 15, marginHorizontal:7, borderRadius: 100}}>
-          <TouchableOpacity>
-            <Icon 
-                name="search"
-                size={25}
-              />
-          </TouchableOpacity>
-        </View>
-        <View style={{flex: .8, height:25, justifyContent: "space-between", marginTop: 15, marginHorizontal:7, borderRadius: 100}}>
-          <TouchableOpacity>
-            <Icon 
-                  name="account-circle"
-                  size={25}
-                />
-          </TouchableOpacity>
-        </View>
-       
-      </View>
+          {/* sub header section */}
+          <View style={{marginVertical: 10}}>
+              <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                  <FlatList
+                    data={games}
+                    horizontal={true}
+                    renderItem={({item})=> <List
+                      title={item.snippet.channelTitle}
+                    />}
+                  />
+              </ScrollView>
+          </View>
+          
 
-      <View>
-
-      </View>
-
-    </View>
-
+          <View>
+            
+            <FlatList
+              data={homeData}
+              
+              renderItem={({item})=><Display 
+                  etag={item.snippet.title} 
+                  channelUrl={item.snippet.thumbnails.high.url} 
+                  ChannelName={item.snippet.channelTitle}
+                  />}
+            />
+          </View>
+        </View>
+    </SafeAreaView>
   )
 
 }
+
+HomeScreen.navigationOptions = {
+  header: null
+}
+
 
 export default HomeScreen;
