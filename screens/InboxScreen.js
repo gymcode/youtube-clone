@@ -12,7 +12,7 @@ import {View,
 import Header from './Subcomponents/headerNav'
 
 
-const HomeScreen = ()=>{
+const InboxScreen = ()=>{
 
   const [content, setContent] = useState([])
 
@@ -52,9 +52,9 @@ const HomeScreen = ()=>{
 
 }
 
-HomeScreen.navigationOptions = {
+InboxScreen.navigationOptions = {
   header: null
 }
 
 
-export default HomeScreen;
+export default InboxScreen;
